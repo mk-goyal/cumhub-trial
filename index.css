@@ -2128,7 +2128,7 @@
     max-height: 70%;
     margin: auto;
     transition: .2s all;
-    filter: brightness(0) invert(1)
+    /* filter: brightness(0) invert(1) */
   }
   
   /* .block-18 {
