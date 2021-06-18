@@ -33,7 +33,7 @@
       <div class="fixed-nav-container">
         <nav class="showcase-nav position-relative container mx-auto px-0">
           <ul class="nav w-100 list-unstyled align-items-center p-0">
-            <li class="showcase-nav__item"><a href="index.html"><img class="showcase-nav__logo" src="" change-src-onscroll="" alt="our logo"></a><!-- Don't remove this empty span --><span class="mx-2"></span></li>
+            <li class="showcase-nav__item"><a href="index.html"><img class="showcase-nav__logo" src="Pornhub-logo.svg.png" change-src-onscroll="Pornhub-logo.svg.png" alt="our logo"></a><!-- Don't remove this empty span --><span class="mx-2"></span></li>
             <li id="showcase-menu" class="flex-grow-1 showcase__nav-list showcase__nav-list--mobile-menu ft-menu">
               <ul class="showcase__menu-content nav flex-column flex-lg-row ft-menu__slider animated list-unstyled p-2 p-lg-0">
                 <li class="flex-grow-1">
@@ -98,12 +98,12 @@
 
     <!-- PARTNERS OPEN  -->
 
-    <div class="block-24 space-between-blocks">
+    <div class="block-1 space-between-blocks">
       <div class="block__header col-lg-8 col-xl-7 mx-auto text-center">
 
         <h1 class="block__title">Our Partners</h1>
 
-        <div class=" block-24__logos ">
+        <div class=" block-1__logos ">
           <div class="row">
             <div class="col-6 col-md-3 px-0">
               <div class="logos__img-container1"><img class="logos__img" src="pancakeswap.png"></div>
@@ -141,67 +141,11 @@
 
   <!-- HEADER CLOSE -->
 
-  <script src="https://unpkg.com/tua-body-scroll-lock" type="30ebea0d3eb8afb569dc1099-text/javascript"></script>
-  <script type="30ebea0d3eb8afb569dc1099-text/javascript">
-    var showDropdown = function(e) {
-        e.currentTarget.classList.add("showcase-nav__item--show-dropdown")
-      },
-      hideDropdown = function(e) {
-        e.currentTarget.classList.remove("showcase-nav__item--show-dropdown")
-      },
-      toggleDropdown = function(e) {
-        e.currentTarget.classList.toggle("showcase-nav__item--show-dropdown")
-      };
-
-    function setupDropdowns(n) {
-      document.querySelectorAll(".showcase-nav__item--with-dropdown").forEach(function(e) {
-        var o, t;
-        n.matches ? ((o = e.classList).contains("showcase-nav__item--dropdown-left") && o.contains("showcase-nav__item--dropdown-right") || (t = e.getBoundingClientRect().width, e.querySelector(".dropdown").style.transform = "translateX(calc(-50% + " + t / 2 + "px))"), e.addEventListener("mouseenter", showDropdown), e.addEventListener("mouseleave", hideDropdown), e.querySelector(".showcase-nav__link").removeEventListener("click", toggleDropdown)) : (e.removeEventListener("mouseenter", showDropdown), e.removeEventListener("mouseleave", hideDropdown), e.querySelector(".dropdown").style.transform = "", e.addEventListener("click", toggleDropdown))
-      })
-    }
-    var mediaQuery = window.matchMedia("(min-width: 992px)");
-    setupDropdowns(mediaQuery), mediaQuery.addListener(function(e) {
-      var o;
-      setupDropdowns(e), e.matches && ((o = document.querySelector("#showcase-menu")).style.height = "", bodyScrollLock.unlock(o))
-    });
-    var showcaseMenu = document.querySelector("#showcase-menu");
-
-    function closeMenuAndGoTo(o) {
-      document.querySelector("#showcase-menu").classList.toggle("ft-menu--js-show");
-      var e = document.querySelector("#showcase-menu");
-      if (e.style.height = "", bodyScrollLock.unlock(e), "#" === o || !document.querySelector(o)) return !1;
-      setTimeout(function() {
-        var e = document.querySelector(o);
-        window.scrollTo({
-          top: e.getBoundingClientRect().top,
-          behavior: "smooth"
-        })
-      }, 250)
-    }
-    document.querySelector("[close-nav-menu]").onclick = function(e) {
-      showcaseMenu.classList.toggle("ft-menu--js-show"), bodyScrollLock.unlock(showcaseMenu)
-    }, document.querySelector("[open-nav-menu]").onclick = function(e) {
-      showcaseMenu.classList.toggle("ft-menu--js-show"), showcaseMenu.style.height = window.innerHeight + "px", bodyScrollLock.lock(showcaseMenu)
-    }, document.querySelector("#showcase-menu").querySelectorAll("[href*='#']").forEach(function(o) {
-      o.onclick = function(e) {
-        e.preventDefault(), closeMenuAndGoTo(o.getAttribute("href"))
-      }
-    });
-    var nav = document.querySelector(".showcase-nav");
-    window.onscroll = function(e) {
-      var o = document.querySelector("[change-src-onscroll]");
-      window.scrollY > nav.getBoundingClientRect().height ? (nav.classList.contains("showcase-nav--is-sticky") || (window.logoSrc = o.getAttribute("src"), o.setAttribute("src", o.getAttribute("change-src-onscroll")), o.setAttribute("change-src-onscroll", logoSrc)), nav.classList.add("showcase-nav--is-sticky")) : 0 === window.scrollY && (nav.classList.contains("showcase-nav--is-sticky") && (window.logoSrc = o.getAttribute("src"), o.setAttribute("src", o.getAttribute("change-src-onscroll")), o.setAttribute("change-src-onscroll", logoSrc)), nav.classList.remove("showcase-nav--is-sticky"))
-    };
-    var languageDropdown = document.querySelector("[javascript-language-selector]");
-    languageDropdown.onclick = function(e) {
-      e.target.classList.contains("dropdown__link") && (languageDropdown.querySelector(".dropdown__link--selected").classList.remove("dropdown__link--selected"), e.target.classList.add("dropdown__link--selected"), document.querySelector(".language-image").setAttribute("src", e.target.querySelector("img").getAttribute("src")))
-    }
-  </script>
-
+  
  
   <!--FEATURES OPEN ---------------->
 
-  <div class="block-25 space-between-blocks">
+  <div class="block-2 space-between-blocks">
     <div class="container">
       <div class="row px-2 align-items-center">
         <div class="block__header col-lg-6">
@@ -211,10 +155,10 @@
         <div class="col-lg-6 logos">
           <div class="row">
             <div class="col-6 px-0">
-              <div class="logos__img-container"><img class="logos__img" src=""></div>
+              <div class="logos__img-container"><img class="logos__img" src="./SL-071219-21480-06.jpg"></div>
             </div>
             <div class="col-6 px-0">
-              <div class="logos__img-container"><img class="logos__img" src="https://img.icons8.com/color/48/000000/zoosk.png"></div>
+              <div class="logos__img-container"><img class="logos__img" src="./fashion.jpg"></div>
             </div>
             <div class="col-6 px-0">
               <div class="logos__img-container"><img class="logos__img" src="https://img.icons8.com/cotton/64/000000/sexy-woman.png"></div>
@@ -234,59 +178,24 @@
 
 <!--TOKENOMICS OPEN---------------->
 
-<div class="block-12 space-between-blocks" style="background: #000">
+<div class="block-3 space-between-blocks" style="background: #000">
   <div class="container-xl">
     <!-- HEADER -->
     <div class="col-lg-7 col-xl-7 mx-auto text-center mb-5">
       <h1 class="block__title mb-3">Tokenomics</h1>
 
-    </div><!-- BODY -->
-    <div class="row px-2">
-      <div class="col-lg-4 mb-2-1rem">
-        <div class="card-1">
-          <div class="card-1__content">
-            <h3 class="card-1__title"><span class="purple">1</span></h3>
-            <p class="card-1__paragraph">IDO projects on Solstarter have allocations that are 100% fair and given out based on the quantity of SOS a user stakes - it's that simple.</p>
-            <!--<div class="card-1__button-container"><span class="card-1__cta-text">Learn More</span><span class="mx-1"></span><svg class="card-1__cta-icon" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
-              </svg></div>-->
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 mb-2-1rem">
-        <div class="card-1 card-1--selected">
-          <div class="card-1__content">
-            <h3 class="card-1__title"><span class="purple">2</span></h3>
-            <p class="card-1__paragraph">Gone are the games of who can click a button first or which bot can snipe the pool the quickest. Allocations will be given to anyone & everyone based on our two tiered auction system.</p>
-            <!--<div class="card-1__button-container"><span class="card-1__cta-text">View Pools</span><span class="mx-1"></span><svg class="card-1__cta-icon" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
-              </svg></div>-->
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 mb-2-1rem">
-        <div class="card-1">
-          <div class="card-1__content">
-            <h3 class="card-1__title"><span class="purple">3</span></h3>
-            <p class="card-1__paragraph">Solstarter is governed by a DAO to determine the future of Solstarter and the pricing of tiers for pools. We have big aspirations for the future and the community is invited to help us democratize fundraising.
-
-</p>
-            <!--<div class="card-1__button-container"><span class="card-1__cta-text">Join Solstarter</span><span class="mx-1"></span><svg class="card-1__cta-icon" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
-              </svg></div>-->
-          </div>
-        </div>
-      </div>
+      <div class="pie-chart-container"><img class="pie-chart" src="./tokenomics.png"></div>
+          
     </div>
   </div>
-  <div class="block-12__shape-for-background"></div>
+  <div class="block-3__shape-for-background"></div>
 </div>
 
 <!-- TOKENOMICS CLOSED -->
 
 <!-- ROADFAP OPEN -->
 
-<div class="block-12 space-between-blocks" style="background: #000">
+<div class="block-3 space-between-blocks" style="background: #000">
     <div class="container-xl">
       <!-- HEADER -->
       <div class="col-lg-7 col-xl-7 mx-auto text-center mb-5">
@@ -298,7 +207,7 @@
           <div class="card-1">
             <div class="card-1__content">
               <h3 class="card-1__title"><span class="purple">Q1</span></h3>
-              <p class="card-1__paragraph">IDO projects on Solstarter have allocations that are 100% fair and given out based on the quantity of SOS a user stakes - it's that simple.</p>
+              <p class="card-1__paragraph">Gone are the games of who can click a button first or which bot ca</p>
               <!--<div class="card-1__button-container"><span class="card-1__cta-text">Learn More</span><span class="mx-1"></span><svg class="card-1__cta-icon" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
                 </svg></div>-->
@@ -331,37 +240,37 @@
         </div>
       </div>
     </div>
-    <div class="block-12__shape-for-background"></div>
+    <div class="block-3__shape-for-background"></div>
   </div>
 
-  <!-- ROADFAP OPEN -->
+  <!-- ROADFAP CLOSED -->
 
 
   <!-- FOOTER OPEN--->
 
-  <div class="block-44 py-5">
+  <div class="block-4 py-5">
     <div class="container">
       <div class="row px-0 mx-0 justify-content-center align-items-center">
-        <div class="block-44__logo-container"><img class="block-44__logo" src=""></div>
-        <ul class="block-44__list list-unstyled justify-content-center mb-0">
-          <li class="block-44__li-1"><a href="https://twitter.com/solstarterorg" class="block-44__link">Twitter</a></li>
-          <li class="block-44__li-1"><a href="team.html" class="block-44__link">Telegram</a></li>
-          <li class="block-44__li-1"><a href="files/solstarter-whitepaper.pdf" class="block-44__link">Whitepaper</a></li>
-          <li class="block-44__li-1"><a href="faq.html" class="block-44__link">FAQ</a></li>
+        <div class="block-4__logo-container"><img class="block-4__logo" src=""></div>
+        <ul class="block-4__list list-unstyled justify-content-center mb-0">
+          <li class="block-4__li-1"><a href="https://twitter.com/solstarterorg" class="block-4__link">Twitter</a></li>
+          <li class="block-4__li-1"><a href="team.html" class="block-4__link">Telegram</a></li>
+          <li class="block-4__li-1"><a href="files/solstarter-whitepaper.pdf" class="block-4__link">Whitepaper</a></li>
+          <li class="block-4__li-1"><a href="faq.html" class="block-4__link">FAQ</a></li>
         </ul>
       </div>
     </div>
-    <hr class="block-44__divider">
+    <hr class="block-4__divider">
     <div class="container">
       <div class="row flex-column flex-md-row px-2 justify-content-center">
         <div class="flex-grow-1">
-          <!-- <ul class="block-44__extra-links d-flex list-unstyled p-0">
-            <li class="mx-2"><a href="https://twitter.com/solstarterorg" class="block-44__link m-0"><i class="fab fa-twitter"></i></a></li>
-            <li class="mx-2"><a href="https://t.me/solstarter" class="block-44__link m-0"><i class="fab fa-telegram"></i></a></li>
-            <li class="mx-2"><a href="https://medium.com/@SolStarter" class="block-44__link m-0"><i class="fab fa-medium"></i></a></li>
+          <!-- <ul class="block-4__extra-links d-flex list-unstyled p-0">
+            <li class="mx-2"><a href="https://twitter.com/solstarterorg" class="block-4__link m-0"><i class="fab fa-twitter"></i></a></li>
+            <li class="mx-2"><a href="https://t.me/solstarter" class="block-4__link m-0"><i class="fab fa-telegram"></i></a></li>
+            <li class="mx-2"><a href="https://medium.com/@SolStarter" class="block-4__link m-0"><i class="fab fa-medium"></i></a></li>
           </ul> -->
         </div>
-        <p class="block-44__copyrights">Copyright © 2021, CUMHUB</p>
+        <p class="block-4__copyrights">Copyright © 2021, CUMHUB</p>
       </div>
     </div>
   </div>
@@ -370,5 +279,9 @@
 
     
 <script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="30ebea0d3eb8afb569dc1099-|49" defer=""></script><script type="text/javascript">(function(){window['__CF$cv$params']={r:'65f19e4e5a71de56',m:'c513980ef7bff469f37b9678a616402610176d3d-1623653363-1800-AbCskBvASG+EJ6kzV8lveonXg7W4CnCRhrxXe6vvxbdNQUvHIoKf6h6sGdfYOMvc+ZiqKw8cKyIntCOhtFn6KS7du6zlzC+xNBohBTM9mP6ZKfDoSN1iqla5qUJKS/YuKA==',s:[0x1c18252dfb,0xa25e1d6c3f],}})();</script></body>
+<script src="https://unpkg.com/tua-body-scroll-lock" type="30ebea0d3eb8afb569dc1099-text/javascript"></script>
+  <script src="./app.js" type="30ebea0d3eb8afb569dc1099-text/javascript">
+    
+  </script>
 
 </html>
